@@ -1,4 +1,4 @@
-﻿spring:
+spring:
     profiles:
         actice:
         - dev
@@ -12,4 +12,4 @@ spring:
 eureka:
     client:
         service-url:
-            defaultZone: http://localhost:7001/eureka/
+            defaultZone: http://localhost:7001/eureka/, http://localhost:7002/eureka/
